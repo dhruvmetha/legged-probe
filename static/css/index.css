@@ -174,3 +174,57 @@ body {
   gap: 5px;
   margin-bottom: 5px;
 }
+/* Added 2026-11 for the page refresh: venue line, results text, clip grid, phone layout. */
+.publication-venue-line {
+  margin-top: 0.5rem;
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-links {
+  margin-top: 1rem;
+}
+
+.results-line,
+.legend-line {
+  max-width: 960px;
+  margin: 0 auto 8px;
+}
+
+.demo-category {
+  max-width: 1280px;
+  margin: 16px auto 0;
+}
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.demo-grid video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 2px solid #000;
+  background: #000;
+}
+
+#inference-pipeline {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  /* Bulma's negative column margins stuck out 12px past the screen edge. */
+  .container > .columns {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .demo-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  /* Justified text leaves wide gaps in a narrow column. */
+  .content.has-text-justified {
+    text-align: left !important;
+  }
+}

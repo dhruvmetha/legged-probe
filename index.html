@@ -1,41 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="description"
-        content="PROBE: Proprioceptive Obstacle Detection and Estimation while Navigating in Clutter">
-  <meta name="keywords" content="Navigation, Policy, PROBE">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PROBE: Proprioceptive Obstacle Detection and Estimation while Navigating in Clutter</title>
-
-  <!-- <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', 'G-PYVRSFMDRL');
-  </script> -->
-
-
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet">
-
-  <link rel="stylesheet" href="./static/css/bulma.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="./static/css/index.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="./static/js/fontawesome.all.min.js"></script>
-  <script src="./static/js/bulma-carousel.min.js"></script>
-  <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/index.js"></script>
+  <title>PROBE: Proprioceptive Obstacle Detection and Estimation while Navigating in Clutter | ICRA 2025</title>
+  <meta name="description" content="PROBE estimates the poses and sizes of obstacles a legged robot runs into, from joint torques and body motion alone, with no camera. Tested in Isaac Gym and on a Unitree Go1. ICRA 2025.">
+  <link rel="canonical" href="https://dhruvmetha.github.io/legged-probe/">
+  <meta property="og:title" content="PROBE: Proprioceptive Obstacle Detection and Estimation while Navigating in Clutter (ICRA 2025)">
+  <meta property="og:description" content="A quadruped estimates the obstacles it pushes through from proprioception alone. Real trials on a Unitree Go1.">
+  <meta property="og:url" content="https://dhruvmetha.github.io/legged-probe/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dhruvmetha.github.io/legged-probe/static/images/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Overhead view of a Unitree Go1 among boxes, next to PROBE's estimate of the obstacles">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PROBE: Proprioceptive Obstacle Detection and Estimation while Navigating in Clutter (ICRA 2025)">
+  <meta name="twitter:description" content="A quadruped estimates the obstacles it pushes through from proprioception alone. Real trials on a Unitree Go1.">
+  <meta name="twitter:image" content="https://dhruvmetha.github.io/legged-probe/static/images/og.jpg">
   <link rel="icon" href="./static/images/noun-dog-robot.svg">
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
 </head>
 <body>
 
@@ -44,49 +31,42 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-2 publication-title">PROBE: Proprioceptive Obstacle Detection and Estimation while Navigating in Clutter</h1>
-          <div class="is-size-5 publication-authors">
+          <h1 class="title is-2 is-size-4-mobile publication-title">PROBE: Proprioceptive Obstacle Detection and Estimation while Navigating in Clutter</h1>
+          <div class="is-size-5 is-size-6-mobile publication-authors">
             <span class="author-block">
               <a href="https://dhruvmetha.github.io/">Dhruv Metha Ramesh</a>,</span>
             <span class="author-block">
+              <a href="https://people.cs.rutgers.edu/~as2578/">Aravind Sivaramakrishnan</a>,</span>
+            <span class="author-block">
               <a href="https://linkedin.com/in/keskarshreesh">Shreesh Keskar</a>,</span>
             <span class="author-block">
-              <a href="https://people.cs.rutgers.edu/~as2578/">Aravind Sivaramakrishnan</a>,
-            </span></br>
+              <a href="https://www.cs.rutgers.edu/people/professors/details/kostas-bekris">Kostas E. Bekris</a>,</span>
             <span class="author-block">
-              <a href="https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/">Kostas E Bekris</a>,
-            </span>
+              <a href="https://www.cs.rutgers.edu/people/professors/details/jingjin-yu">Jingjin Yu</a>,</span>
             <span class="author-block">
-              <a href="https://www.cs.rutgers.edu/people/professors/details/jingjin-yu">Jingjin Yu</a>,
-            </span>
-            <span class="author-block">
-              <a href="http://www.abdeslam.net/">Abdeslam Boularias</a>
-            </span>
+              <a href="http://www.abdeslam.net/">Abdeslam Boularias</a></span>
           </div>
 
-          <div class="is-size-5 publication-authors">
+          <div class="is-size-5 is-size-6-mobile publication-authors">
             <span class="author-block">Rutgers, The State University of New Jersey</span>
           </div>
+          <div class="is-size-5 is-size-6-mobile publication-venue-line">
+            <a href="https://doi.org/10.1109/ICRA55743.2025.11128475">IEEE International Conference on Robotics and Automation (ICRA), 2025</a>
+          </div>
 
-          <div style="padding-top: 8px; display: inline-flex;">
-              <div style="padding: 0px 10px;">
-              <a target="_blank" href="static/docs/probe.pdf" class="external-link button is-normal is-rounded is-dark">
-                <span class="icon">
-                  <i class="fa fa-file"></i>
-                </span>
-                <span>Paper</span>
-              </a>
-            </div>
-            <div style="padding: 0px 10px;">
-              <a target="_blank" href="https://github.com/dhruvmetha/probe" class="external-link button is-normal is-rounded is-dark">
-                <span class="icon">
-                  <i class="fab fa-github"></i>
-                </span>
-                <span>Code</span>
-              </a>
-            </div>
-
-              
+          <div class="publication-links">
+            <span class="link-block">
+              <a href="https://doi.org/10.1109/ICRA55743.2025.11128475" class="external-link button is-normal is-rounded is-dark">Paper</a>
+            </span>
+            <span class="link-block">
+              <a href="https://arxiv.org/abs/2505.11848" class="external-link button is-normal is-rounded is-dark">arXiv</a>
+            </span>
+            <span class="link-block">
+              <a href="https://github.com/dhruvmetha/probe" class="external-link button is-normal is-rounded is-dark">Code</a>
+            </span>
+            <span class="link-block">
+              <a href="#BibTeX" class="external-link button is-normal is-rounded is-dark">BibTeX</a>
+            </span>
           </div>
         </div>
       </div>
@@ -96,128 +76,113 @@
 
 <section>
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-4">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            In critical applications, including search-and-rescue in degraded environments, blockages
-            can be prevalent and prevent the effective deployment of certain sensing modalities, particularly
-            vision, due to occlusion and the constrained range of view of onboard camera sensors. To
-            enable robots to tackle these challenges, we propose a new approach, Proprioceptive Obstacle Detection
-            and Estimation while navigating in clutter (PROBE), that instead utilizes the robot’s proprioception to
-            infer the presence or the absence of occluded planar obstacles while predicting their dimensions and poses
-            in SE(2). As a novel vision-free technique, PROBE simultaneously navigates in cluttered environments 
-            and detects on the fly the presence and dimensions of unseen static/movable obstacles entirely through
-            physical contact interactions. PROBE is a Transformer neural network that receives as inputs a history
-            of applied torques and sensed whole-body movements of the robot and returns a parameterized representation
-            of the obstacles in the environment. The effectiveness of PROBE is thoroughly evaluated on simulated environments
-            in Isaac Gym and a real Unitree Go1 quadruped.
+            In critical applications, including search-and-rescue in degraded environments, blockages can be prevalent
+            and prevent the effective deployment of certain sensing modalities, particularly vision, due to occlusion
+            and the constrained range of view of onboard camera sensors. To enable robots to tackle these challenges, we
+            propose a new approach, Proprioceptive Obstacle Detection and Estimation while navigating in clutter
+            (PROBE), which instead relies only on the robot's proprioception to infer the presence or absence of
+            occluded rectangular obstacles while predicting their dimensions and poses in SE(2). The proposed approach
+            is a Transformer neural network that receives as input a history of applied torques and sensed whole-body
+            movements of the robot and returns a parameterized representation of the obstacles in the environment. The
+            effectiveness of PROBE is evaluated on simulated environments in Isaac Gym and with a real Unitree Go1
+            quadruped robot.
           </p>
         </div>
       </div>
     </div>
-   
+
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-4">System Pipeline</h2>
-          <img src="./static/images/InferencePipeline.png" alt="PROBE Inference Pipeline"
-            id="inference-pipeline" style="border: 2px solid #000;">
-        </div>
+        <h2 class="title is-4">System pipeline</h2>
+        <img src="./static/images/InferencePipeline.jpg" width="1513" height="434" id="inference-pipeline"
+             style="border: 2px solid #000;"
+             alt="PROBE inference pipeline: motor encoder readings feed a navigation policy and locomotion controller, and the proprioception history feeds the obstacle reconstruction module, which outputs the estimated obstacles.">
       </div>
     </div>
-
   </div>
+
   <div class="hero-body">
-    
-    <div class="title is-4" style="text-align:center">Real Robot Trials</div>
+    <div class="title is-4" style="text-align:center">Real robot trials</div>
 
-    <div style="padding-bottom: 8px;">
-      For all the demonstrations below the ground truth obstacles are colored in yellow for movable and red for static. The predicted obstacles are colored in orange for movable and blue for static. The robot pose is shown in green.
-    </div>
+    <p class="results-line">
+      We evaluated PROBE in 45 trials on a real Unitree Go1: 20 Easy, 20 Medium and 5 Hard.
+      Mean IoU between the estimated and true obstacles at the end of each contact window ranged from 0.20 to 0.45
+      across obstacle types, against 0.33 to 0.50 over 1,000 simulated trials per category (Tables I and II in the paper).
+    </p>
 
-    <div style="padding: 8px 0px">
-      <div class="title is-5" style="width: 100%; padding: 4px 0px;">
-        Category 1: Easy (One movable or one static obstacle)
-      </div>
-      <!-- <div style="padding-bottom: 8px;">
-        The ground truth obstacles are colored in yellow for movable and red for static. The predicted obstacles are colored in orange for yellow and blue for static. The robot pose is shown in green.
-      </div> -->
-      <div style="display: inline-flex;">
-        <div style="padding: 4px;">
-          <video autoplay controls muted loop playsinline style="border: 2px solid #000; width:100%;">
-            <source src="./static/videos/easy/demo_0.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div style="padding: 4px;">
-          <video autoplay controls muted loop playsinline style="border: 2px solid #000; width:100%;">
-            <source src="./static/videos/easy/demo_2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
+    <p class="legend-line">
+      For all the demonstrations below the ground truth obstacles are colored in yellow for movable and red for static.
+      The predicted obstacles are colored in orange for movable and blue for static. The robot pose is shown in green.
+    </p>
+
+    <div class="demo-category">
+      <div class="title is-5">Category 1: Easy (One movable or one static obstacle)</div>
+      <div class="demo-grid">
+        <video class="clip" controls muted loop playsinline preload="none" width="1280" height="360"
+               poster="./static/videos/web/demo_0.jpg" aria-label="Easy trial with one movable or one static obstacle. Left: overhead camera. Right: true obstacles and PROBE's estimate.">
+          <source src="./static/videos/web/demo_0.mp4" type="video/mp4">
+        </video>
+        <video class="clip" controls muted loop playsinline preload="none" width="1280" height="360"
+               poster="./static/videos/web/demo_2.jpg" aria-label="Easy trial with one movable or one static obstacle. Left: overhead camera. Right: true obstacles and PROBE's estimate.">
+          <source src="./static/videos/web/demo_2.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
 
-    <div style="padding: 8px 0px">
-      <div class="title is-5" style="width: 100%; padding: 4px 0px;">
-        Category 2: Medium (One static behind one movable)
-      </div>
-      <!-- <div style="padding-bottom: 8px;">
-        The ground truth obstacles are colored in yellow for movable and red for static. The predicted obstacles are colored in orange for yellow and blue for static. The robot pose is shown in green.
-      </div> -->
-      <div style="display: inline-flex;">
-        <div style="padding: 4px;">
-          <video autoplay controls muted loop playsinline style="border: 2px solid #000; width:100%;">
-            <source src="./static/videos/medium/demo_3.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div style="padding: 4px;">
-          <video autoplay controls muted loop playsinline style="border: 2px solid #000; width:100%;">
-            <source src="./static/videos/medium/demo_6.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-
-      <div style="display: inline-flex;">
-        <div style="padding: 4px;">
-          <video autoplay controls muted loop playsinline style="border: 2px solid #000; width:100%;">
-            <source src="./static/videos/medium/demo_17.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div style="padding: 4px;">
-          <video autoplay controls muted loop playsinline style="border: 2px solid #000; width:100%;">
-            <source src="./static/videos/medium/demo_20.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-
-    </div>
-
-    <div style="padding: 8px 0px">
-      <div class="title is-5" style="width: 100%; padding: 4px 0px;">
-        Category 3: Hard (Two static obstacles behind one movable)
-      </div>
-      <div style="display: inline-flex;">
-        <div style="padding: 4px;">
-          <video autoplay controls muted loop playsinline style="border: 2px solid #000; width:100%;">
-            <source src="./static/videos/hard/demo_4.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div style="padding: 4px;">
-          <video autoplay controls muted loop playsinline style="border: 2px solid #000; width:100%;">
-            <source src="./static/videos/hard/demo_5.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
+    <div class="demo-category">
+      <div class="title is-5">Category 2: Medium (One static behind one movable)</div>
+      <div class="demo-grid">
+        <video class="clip" controls muted loop playsinline preload="none" width="1280" height="360"
+               poster="./static/videos/web/demo_3.jpg" aria-label="Medium trial with one static obstacle behind one movable obstacle. Left: overhead camera. Right: true obstacles and PROBE's estimate.">
+          <source src="./static/videos/web/demo_3.mp4" type="video/mp4">
+        </video>
+        <video class="clip" controls muted loop playsinline preload="none" width="1280" height="360"
+               poster="./static/videos/web/demo_6.jpg" aria-label="Medium trial with one static obstacle behind one movable obstacle. Left: overhead camera. Right: true obstacles and PROBE's estimate.">
+          <source src="./static/videos/web/demo_6.mp4" type="video/mp4">
+        </video>
+        <video class="clip" controls muted loop playsinline preload="none" width="1280" height="360"
+               poster="./static/videos/web/demo_17.jpg" aria-label="Medium trial with one static obstacle behind one movable obstacle. Left: overhead camera. Right: true obstacles and PROBE's estimate.">
+          <source src="./static/videos/web/demo_17.mp4" type="video/mp4">
+        </video>
+        <video class="clip" controls muted loop playsinline preload="none" width="1280" height="360"
+               poster="./static/videos/web/demo_20.jpg" aria-label="Medium trial with one static obstacle behind one movable obstacle. Left: overhead camera. Right: true obstacles and PROBE's estimate.">
+          <source src="./static/videos/web/demo_20.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
+
+    <div class="demo-category">
+      <div class="title is-5">Category 3: Hard (Two static obstacles behind one movable)</div>
+      <div class="demo-grid">
+        <video class="clip" controls muted loop playsinline preload="none" width="1280" height="360"
+               poster="./static/videos/web/demo_4.jpg" aria-label="Hard trial with two static obstacles behind one movable obstacle. Left: overhead camera. Right: true obstacles and PROBE's estimate.">
+          <source src="./static/videos/web/demo_4.mp4" type="video/mp4">
+        </video>
+        <video class="clip" controls muted loop playsinline preload="none" width="1280" height="360"
+               poster="./static/videos/web/demo_5.jpg" aria-label="Hard trial with two static obstacles behind one movable obstacle. Left: overhead camera. Right: true obstacles and PROBE's estimate.">
+          <source src="./static/videos/web/demo_5.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{ramesh2025probe,
+  title     = {PROBE: Proprioceptive Obstacle Detection and Estimation while Navigating in Clutter},
+  author    = {Ramesh, Dhruv Metha and Sivaramakrishnan, Aravind and Keskar, Shreesh and Bekris, Kostas E. and Yu, Jingjin and Boularias, Abdeslam},
+  booktitle = {2025 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages     = {698--704},
+  year      = {2025},
+  doi       = {10.1109/ICRA55743.2025.11128475}
+}</code></pre>
   </div>
 </section>
 
@@ -227,15 +192,32 @@
       <div class="column is-8">
         <div class="content has-text-centered">
           <p>
-            Template obtained with thanks from the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> page 
+            Template obtained with thanks from the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> page
             under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike
-            4.0 International License</a>. 
+            4.0 International License</a>.
           </p>
         </div>
       </div>
     </div>
   </div>
 </footer>
+
+<script>
+  // Load and play each clip only while it is on screen; pause it when it scrolls away.
+  // Nothing autoplays when the OS asks for reduced motion. Every clip keeps its controls.
+  (function () {
+    if (!('IntersectionObserver' in window)) return;
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        var v = e.target;
+        if (e.isIntersecting) { if (!reduce) v.play().catch(function () {}); }
+        else if (!v.paused) { v.pause(); }
+      });
+    }, {threshold: 0.25});
+    document.querySelectorAll('video.clip').forEach(function (v) { io.observe(v); });
+  })();
+</script>
 
 </body>
 </html>
